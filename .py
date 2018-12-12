@@ -12,7 +12,7 @@ while questionOneCorrect == 0:
         print("What? Where am I? You need to stop! Don't go further.")
         questionOneCorrect = 1
     else:
-        print("FAILURE.")
+        print("FAILURE!")
 questionTwoCorrect = 0
 print("Second Level.")
 while questionTwoCorrect == 0:
@@ -22,12 +22,13 @@ while questionTwoCorrect == 0:
     if str.lower(questionTwoAnswer) == "three":
         print("@&#$&#@*><':")
         questionTwoCorrect = 1
-    elif questionOneAnswer == "3":
+    elif questionTwoAnswer == "3":
         print("@&#$&#@*><':")
+        questionTwoCorrect = 1
     else:
         print("WRONG!")
 questionThreeCorrect = 0
-print("Cerberus.")
+print("Next level.")
 while questionThreeCorrect == 0:
     print("WHO IS PERSEPHONE?")
     questionThreeAnswer = raw_input()
@@ -35,14 +36,14 @@ while questionThreeCorrect == 0:
     if str.lower(questionThreeAnswer) == "queen of the underworld":
         print("Pay no attention to him. Continue!")
         questionThreeCorrect = 1
-    elif str.lower(questionThreeAnswer) == "hades' wife":
+    elif str.lower(questionThreeAnswer) == "hades wife":
         print("Pay no attention to him. Continue!")
         questionThreeCorrect = 1
     elif questionOneAnswer == "greek goddess":
         print("Pay no attention to him. Continue!")
-     elif questionOneAnswer == "goddess of the underworld":
+    elif questionOneAnswer == "goddess of the underworld":
         print("Pay no attention to him. Continue!")
-  elif questionOneAnswer == "demeter's daughter":
+    elif questionOneAnswer == "demeter's daughter":
         print("Pay no attention to him. Continue!")
     else:
         print("Please!!! just leave if you kno---- Try again and continue.")
@@ -55,20 +56,20 @@ while questionFourCorrect == 0:
     if questionFourAnswer == "hell":
         print("He is no longer a problem.")
         questionFourCorrect = 1
-          questionFourAnswer = raw_input()
+        questionFourAnswer = raw_input()
     questionFourAnswer = str(questionFourAnswer)
     if questionFourAnswer == "He is no longer a problem.":
         print("Correct!")
         questionFourCorrect = 1
     else:
         print("WRONG!!!")
-print("Fifth question. Getting hot in here!")
+print("WHY DO YOU KEEP PLAYING? STOP N--- Please continue")
 questionFiveCorrect = 0
 while questionFiveCorrect == 0:
     print("From what mythos do Hades and Persephone reside?")
     questionFiveAnswer = raw_input()
     if str.lower(questionFiveAnswer) == "greek":
-        print("STOP!! NO! THEY WILL KILL Y--- How does that keep happening? Continue.")
+        print("STOP!! NO! THEY WILL KILL Y--- How does that keep happening? He is more persistent than we thought.")
         questionFiveCorrect = 1
     else:
         print("STOP!! NO! THEY WILL KILL Y--- How does that keep happening? Try again.")
